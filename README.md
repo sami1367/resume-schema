@@ -8,10 +8,18 @@
 
 ## نصب ابزارها (یک‌بار)
 
+قالب انتخاب‌شده **Modern Classic** است و با نام `modern-classic` در دستورها استفاده می‌شود.
+
 در ترمینال، از پوشهٔ پروژه اجرا کنید:
 
 ```bash
-npm install --save-dev resume-cli jsonresume-theme-even
+npm install --save-dev resume-cli jsonresume-theme-modern-classic
+```
+
+برای خروجی PDF، مرورگر موردنیاز Puppeteer را هم یک‌بار نصب کنید (یا اگر خطای «Could not find Chrome» دریافت کردید):
+
+```bash
+npx puppeteer browsers install chrome
 ```
 
 ## ساخت PDF بعد از هر تغییر
@@ -19,15 +27,15 @@ npm install --save-dev resume-cli jsonresume-theme-even
 پس از ویرایش و ذخیرهٔ فایل‌های JSON، دستورهای زیر را اجرا کنید:
 
 ```bash
-npx resume export resume.en.pdf --resume resume.en.json --theme even
-npx resume export resume.fa.pdf --resume resume.fa.json --theme even
+npx resume export resume.en.pdf --resume resume.en.json --theme modern-classic
+npx resume export resume.fa.pdf --resume resume.fa.json --theme modern-classic
 ```
 
 فایل‌های `resume.en.pdf` و `resume.fa.pdf` در پوشهٔ پروژه ساخته می‌شوند و با اجرای مجدد دستورها جایگزین خواهند شد. این دستورها را باید بعد از هر تغییر اجرا کنید؛ خروجی PDF خودکار به‌روز نمی‌شود.
 
 نسخه‌های فارسی و انگلیسی مستقل هستند؛ تغییر یکی به‌صورت خودکار در دیگری یا در `resume.json` اعمال نمی‌شود.
 
-برای خروجی مناسب فارسی، قالب باید از راست‌به‌چپ، فونت فارسی و عنوان‌های فارسی پشتیبانی کند. دستور بالا با قالب `even` به‌تنهایی این موارد را تضمین نمی‌کند و ممکن است به سفارشی‌سازی قالب نیاز باشد.
+برای خروجی مناسب فارسی، قالب باید از راست‌به‌چپ، فونت فارسی و عنوان‌های فارسی پشتیبانی کند. دستور بالا با قالب `Modern Classic` به‌تنهایی این موارد را تضمین نمی‌کند و ممکن است به سفارشی‌سازی قالب نیاز باشد.
 
 مرجع: [مستندات رسمی resume-cli](https://github.com/jsonresume/resume-cli).
 
