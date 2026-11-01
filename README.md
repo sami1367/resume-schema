@@ -31,9 +31,12 @@ npx puppeteer browsers install chrome
 
 ```bash
 npx resume export resume.en.pdf --resume resume.en.json --theme modern-classic
-npx resume export resume.fa.pdf --resume resume.fa.json --theme modern-classic
+npx resume export resume.fa.pdf --resume resume.fa.json --theme ./themes/modern-classic-fa
 npx resume export cv.en.pdf --resume cv.en.json --theme modern-classic
-npx resume export cv.fa.pdf --resume cv.fa.json --theme modern-classic
+npx resume export cv.fa.pdf --resume cv.fa.json --theme ./themes/modern-classic-fa
+
+npx resume export resume.en.pdf --resume resume.en.json --theme modern-classic ; npx resume export resume.fa.pdf --resume resume.fa.json --theme ./themes/modern-classic-fa ; npx resume export cv.en.pdf --resume cv.en.json --theme modern-classic ; npx resume export cv.fa.pdf --resume cv.fa.json --theme ./themes/modern-classic-fa
+
 ```
 
 فایل‌های `resume.en.pdf`، `resume.fa.pdf`، `cv.en.pdf` و `cv.fa.pdf` در پوشهٔ پروژه ساخته می‌شوند و با اجرای مجدد دستورها جایگزین خواهند شد. این دستورها را باید بعد از هر تغییر اجرا کنید؛ خروجی PDF خودکار به‌روز نمی‌شود.
@@ -42,7 +45,9 @@ npx resume export cv.fa.pdf --resume cv.fa.json --theme modern-classic
 
 CVها اطلاعات کامل قبلی را حفظ کرده‌اند. رزومه‌های کوتاه بر اساس متن جدید تهیه شده‌اند؛ در متن جدید، شاخص پاسخ زیر یک ثانیه از ۹۰٪ به ۹۵٪ و مخاطب اپلیکیشن دوم تلامالا از مدیران به فروشگاه‌ها تغییر کرده است. پیش از ارسال، این تفاوت‌ها را بررسی کنید. تعداد صفحات PDF به قالب و صفحه‌بندی بستگی دارد.
 
-برای خروجی مناسب فارسی، قالب باید از راست‌به‌چپ، فونت فارسی و عنوان‌های فارسی پشتیبانی کند. دستور بالا با قالب `Modern Classic` به‌تنهایی این موارد را تضمین نمی‌کند و ممکن است به سفارشی‌سازی قالب نیاز باشد.
+نسخه‌های فارسی از قالب محلی `themes/modern-classic-fa` با چیدمان راست‌به‌چپ، عنوان‌های فارسی و فونت وزیرمتن استفاده می‌کنند. نسخه‌های انگلیسی همچنان از Modern Classic اصلی استفاده می‌کنند.
+
+برای تغییر ظاهر فارسی، فایل `themes/modern-classic-fa/style.css` و برای تغییر عنوان‌ها و ساختار، فایل `themes/modern-classic-fa/index.js` را ویرایش کنید. فونت داخل پوشهٔ `fonts` قرار دارد و در خروجی تعبیه می‌شود؛ تولید و نمایش PDF فارسی به دانلود فونت از اینترنت نیاز ندارد. تاریخ‌ها با نام ماه فارسی و تقویم میلادی نمایش داده می‌شوند.
 
 مرجع: [مستندات رسمی resume-cli](https://github.com/jsonresume/resume-cli).
 
