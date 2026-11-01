@@ -1,5 +1,5 @@
 {
-  "$schema": "./schema.json",
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "سجاد رحیمی",
     "label": "توسعه‌دهنده ارشد فول‌استک PHP / سرپرست تیم",

@@ -1,1 +1,7 @@
 node_modules/
+
+# Generated resume previews and PDF exports
+/public/
+/resume.pdf
+/resume.en.pdf
+/resume.fa.pdf
