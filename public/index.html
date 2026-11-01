@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sajad Rahimi</title>
+    <meta name="description" content="Senior Node.js full stack developer experienced in building scalable web applications and leading teams. Skilled in Node.js, TypeScript, Express, NestJS, MongoDB, and PHP (Laravel, Slim, Symfony). Self-taught and committed to continuous learning, teamwork, and improving delivery through agile practices." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>Sajad Rahimi</h1>
+          <h2>Senior Node.js Full Stack Developer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sjd.rhm@gmail.com">sjd.rhm@gmail.com</a>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              +989133888033
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>Senior Node.js full stack developer experienced in building scalable web applications and leading teams. Skilled in Node.js, TypeScript, Express, NestJS, MongoDB, and PHP (Laravel, Slim, Symfony). Self-taught and committed to continuous learning, teamwork, and improving delivery through agile practices.</p>
+          </article>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Iranicard (Paliz Group)</h4>
+                  <span>
+                    <time datetime="2020-01">Jan 2020</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Senior Full Stack Developer &amp; Team Lead</strong>
+                    <a href="https://www.pateh.com/">www.pateh.com</a>
+                </div>
+              </header>
+                <p>Led a team of 8 developers to build Pateh, a comprehensive booking platform.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Developed over 25 microservices and integrated more than 20 third-party APIs for flight and hotel bookings.</li>
+                    <li>Designed a high-performance flight search engine returning results in less than one second in 95% of cases.</li>
+                    <li>Built a system handling over 10,000 flight search requests per second.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Amreton</h4>
+                  <span>
+                    <time datetime="2019-01">Jan 2019</time> –
+                    <time datetime="2019-12">Dec 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Full Stack Engineer / Backend PHP Developer</strong>
+                    <a href="https://amreton.ir/">amreton.ir</a>
+                </div>
+              </header>
+                <p>Developed an internet taxi application and its backend services.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Identified and fixed backend issues to support increased driver and customer volume.</li>
+                    <li>Expanded the platform to support taxi services, food delivery, medical assistance, and logistics.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Talamala</h4>
+                  <span>
+                    <time datetime="2015-02">Feb 2015</time> –
+                    <time datetime="2018-11">Nov 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Full-stack PHP Developer</strong>
+                    <a href="https://talamala.ir/">talamala.ir</a>
+                </div>
+              </header>
+                <p>Independently developed the Talamala platform.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Built the website and two Android apps for users and shops.</li>
+                    <li>Developed and maintained the PHP and MySQL backend.</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Ponisha</h4>
+                  <span>
+                    <time datetime="2012-03">Mar 2012</time> –
+                    <time datetime="2014-12">Dec 2014</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Freelance Software Developer</strong>
+                    <a href="https://ponisha.ir/">ponisha.ir</a>
+                </div>
+              </header>
+                <p>Delivered custom websites and software through Ponisha using WordPress, PHP, and JavaScript, creating responsive interfaces and dynamic functionality under tight deadlines.</p>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Sepahan University</h4>
+                  <span>
+                    <time datetime="2021">Jan 2021</time> –
+                    <time datetime="2023">Jan 2023</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Engineering</strong>
+                </div>
+              </header>
+                <p>Bachelor</p>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Sadjad University</h4>
+                  <span>
+                    <time datetime="2007">Jan 2007</time> –
+                    <time datetime="2010">Jan 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                </div>
+              </header>
+                <p>Associate degree</p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Backend</h4>
+                <ul class="tag-list">
+                    <li>Node.js</li>
+                    <li>TypeScript</li>
+                    <li>Express</li>
+                    <li>NestJS</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Slim</li>
+                    <li>Symfony</li>
+                    <li>Go</li>
+                    <li>Gin</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Frontend</h4>
+                <ul class="tag-list">
+                    <li>JavaScript</li>
+                    <li>Angular</li>
+                    <li>AngularJS</li>
+                    <li>Vue.js</li>
+                    <li>Nuxt.js</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>AJAX</li>
+                    <li>Bootstrap</li>
+                    <li>SASS</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Data and Infrastructure</h4>
+                <ul class="tag-list">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>AWS</li>
+                    <li>Linux</li>
+                    <li>LAMP</li>
+                    <li>Docker</li>
+                    <li>CI/CD</li>
+                    <li>Git</li>
+                    <li>GitLab</li>
+                    <li>GitHub</li>
+                    <li>RabbitMQ</li>
+                    <li>Grafana</li>
+                    <li>Caching</li>
+                    <li>Queues</li>
+                    <li>Background Jobs</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Engineering Practices</h4>
+                <ul class="tag-list">
+                    <li>OOP</li>
+                    <li>SOLID</li>
+                    <li>DRY</li>
+                    <li>Software Architecture</li>
+                    <li>Design Patterns</li>
+                    <li>Clean Code</li>
+                    <li>Code Review</li>
+                    <li>Unit Testing</li>
+                    <li>Integration Testing</li>
+                    <li>Scenario Testing</li>
+                    <li>Pull Requests</li>
+                    <li>Merge Requests</li>
+                    <li>Git Workflows</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Collaboration</h4>
+                <ul class="tag-list">
+                    <li>Agile</li>
+                    <li>Scrum</li>
+                    <li>Kanban</li>
+                    <li>Problem Solving</li>
+                    <li>Management</li>
+                    <li>Communication</li>
+                    <li>Innovation</li>
+                    <li>Planning</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>English</h4>
+              
+            </div>
+            <div>
+                <h4>Persian</h4>
+              
+            </div>
+            <div>
+                <h4>Kurdish</h4>
+              
+            </div>
+        </div>
+      </section>
+  </body>
+</html>
