@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Sajad Rahimi",
-    "label": "Senior PHP Full Stack Developer / Team Lead",
+    "label": "Senior Node.js Full Stack Developer",
     "email": "sjd.rhm@gmail.com",
     "phone": "+989133888033",
-    "summary": "Self-taught senior software developer experienced in building scalable web applications and leading engineering teams. Skilled in PHP (Laravel, Slim, Symfony), Node.js (Express, NestJS), TypeScript, and full-stack development. Designed high-performance search systems, integrated third-party services, and delivered web and mobile platforms. Committed to continuous learning, collaborative teamwork, and improving delivery through agile practices.",
+    "summary": "Senior Node.js full stack developer experienced in building scalable web applications and leading teams. Skilled in Node.js, TypeScript, Express, NestJS, MongoDB, and PHP (Laravel, Slim, Symfony). Self-taught and committed to continuous learning, teamwork, and improving delivery through agile practices.",
     "location": {
       "address": "#10, alley 12, Malek Shahr",
       "postalCode": "8196616311",
@@ -18,80 +18,40 @@
     {
       "name": "Iranicard (Paliz Group)",
       "location": "Isfahan, Iran",
-      "position": "Senior Software Developer / Team Lead",
-      "url": "https://panel.iranicard.ir/login",
+      "position": "Senior Full Stack Developer & Team Lead",
+      "url": "https://www.pateh.com/",
       "startDate": "2020-01",
-      "summary": "Lead development of Pateh, a booking platform for flights, buses, hotels, tours, and insurance, and contribute to Iranicard international payment services.",
+      "summary": "Led a team of 8 developers to build Pateh, a comprehensive booking platform.",
       "highlights": [
-        "Led a team of 8 developers to design and build more than 25 microservices for the Pateh booking platform.",
-        "Integrated more than 20 third-party flight and hotel booking APIs.",
-        "Built a system capable of handling over 10,000 flight search requests per second.",
-        "Designed a flight search engine that returned results in less than one second in 90% of cases, supporting growth during the first year.",
-        "Improved Iranicard international payment integrations, resolved security issues and bugs, optimized databases, and improved the customer experience."
-      ],
-      "keywords": [
-        "PHP",
-        "Laravel",
-        "MySQL",
-        "Node.js",
-        "NestJS",
-        "Nuxt.js",
-        "MongoDB",
-        "TypeScript",
-        "Vue.js",
-        "JavaScript",
-        "AngularJS",
-        "jQuery",
-        "AJAX",
-        "Grafana",
-        "Microservices"
+        "Developed over 25 microservices and integrated more than 20 third-party APIs for flight and hotel bookings.",
+        "Designed a high-performance flight search engine returning results in less than one second in 95% of cases.",
+        "Built a system handling over 10,000 flight search requests per second."
       ]
     },
     {
       "name": "Amreton",
       "location": "Isfahan, Iran",
-      "position": "Full Stack Engineer / Backend Developer",
+      "position": "Full Stack Engineer / Backend PHP Developer",
       "url": "https://amreton.ir/",
       "startDate": "2019-01",
       "endDate": "2019-12",
-      "summary": "Developed backend services and APIs for customer and driver applications on an internet taxi platform that expanded into food delivery, medical assistance, and logistics services.",
+      "summary": "Developed an internet taxi application and its backend services.",
       "highlights": [
-        "Built client and driver APIs with PHP, Laravel, MySQL, Node.js, and Express.",
-        "Optimized travel allocation APIs and migrated communication to WebSocket technology.",
-        "Collaborated through Scrum sprints, daily stand-ups, retrospectives, sprint planning, and demos."
-      ],
-      "keywords": [
-        "PHP",
-        "Laravel",
-        "MySQL",
-        "Node.js",
-        "Express",
-        "Angular",
-        "JavaScript",
-        "WebSocket",
-        "Scrum"
+        "Identified and fixed backend issues to support increased driver and customer volume.",
+        "Expanded the platform to support taxi services, food delivery, medical assistance, and logistics."
       ]
     },
     {
       "name": "Talamala",
       "location": "Isfahan, Iran",
-      "position": "Full-stack Developer",
+      "position": "Full-stack PHP Developer",
       "url": "https://talamala.ir/",
       "startDate": "2015-02",
       "endDate": "2018-11",
-      "summary": "Independently developed the Talamala website, two Android applications for users and administrators, and the supporting backend.",
+      "summary": "Independently developed the Talamala platform.",
       "highlights": [
-        "Delivered an integrated website, user Android app, and administrator Android app.",
-        "Built a PHP and MySQL backend for data processing and communication across the platform.",
-        "Developed web interfaces using JavaScript, jQuery, and AJAX."
-      ],
-      "keywords": [
-        "PHP",
-        "MySQL",
-        "JavaScript",
-        "jQuery",
-        "AJAX",
-        "Android"
+        "Built the website and two Android apps for users and shops.",
+        "Developed and maintained the PHP and MySQL backend."
       ]
     },
     {
@@ -101,20 +61,7 @@
       "url": "https://ponisha.ir/",
       "startDate": "2012-03",
       "endDate": "2014-12",
-      "summary": "Delivered customized websites and software solutions for freelance clients using WordPress, PHP, and JavaScript.",
-      "highlights": [
-        "Developed responsive websites with dynamic functionality and user-friendly interfaces.",
-        "Built tailored solutions using PHP, MySQL, JavaScript, and jQuery to meet client requirements.",
-        "Delivered projects under tight deadlines."
-      ],
-      "keywords": [
-        "WordPress",
-        "PHP",
-        "MySQL",
-        "JavaScript",
-        "jQuery",
-        "Responsive Design"
-      ]
+      "summary": "Delivered custom websites and software through Ponisha using WordPress, PHP, and JavaScript, creating responsive interfaces and dynamic functionality under tight deadlines."
     }
   ],
   "education": [
@@ -123,8 +70,7 @@
       "area": "Engineering",
       "studyType": "Bachelor",
       "startDate": "2021",
-      "endDate": "2023",
-      "summary": "Completed software projects while studying electronic engineering with a focus on software applications."
+      "endDate": "2023"
     },
     {
       "institution": "Sadjad University",
@@ -133,109 +79,87 @@
       "endDate": "2010"
     }
   ],
-  "certificates": [
-    {
-      "name": "Developing Back-End Apps with Node.js and Express",
-      "date": "2023",
-      "issuer": "IBM / Coursera"
-    },
-    {
-      "name": "Web Page Development with PHP and MySQL",
-      "date": "2020",
-      "issuer": "Technical Vocational, Isfahan, Iran"
-    }
-  ],
   "skills": [
     {
-      "name": "Backend Development",
+      "name": "Backend",
       "keywords": [
-        "PHP",
-        "Laravel",
-        "Symfony",
-        "Slim",
-        "MVC",
         "Node.js",
+        "TypeScript",
         "Express",
         "NestJS",
+        "PHP",
+        "Laravel",
+        "Slim",
+        "Symfony",
         "Go",
         "Gin",
         "REST APIs"
       ]
     },
     {
-      "name": "Frontend Development",
+      "name": "Frontend",
       "keywords": [
         "JavaScript",
-        "TypeScript",
         "Angular",
         "AngularJS",
         "Vue.js",
         "Nuxt.js",
         "HTML",
         "CSS",
+        "AJAX",
         "Bootstrap",
-        "SASS",
-        "jQuery",
-        "AJAX"
+        "SASS"
       ]
     },
     {
-      "name": "Databases and Messaging",
+      "name": "Data and Infrastructure",
       "keywords": [
         "MySQL",
         "MongoDB",
-        "Database Optimization",
-        "Caching",
-        "Queues",
-        "Background Jobs",
-        "RabbitMQ"
-      ]
-    },
-    {
-      "name": "Infrastructure and Delivery",
-      "keywords": [
         "AWS",
         "Linux",
-        "Apache",
         "LAMP",
+        "Docker",
         "CI/CD",
         "Git",
         "GitLab",
         "GitHub",
+        "RabbitMQ",
         "Grafana",
-        "Git Workflows"
+        "Caching",
+        "Queues",
+        "Background Jobs"
       ]
     },
     {
-      "name": "Software Engineering",
+      "name": "Engineering Practices",
       "keywords": [
-        "Microservices",
-        "Software Architecture",
-        "Software Design",
-        "Design Patterns",
         "OOP",
-        "SOLID Principles",
+        "SOLID",
+        "DRY",
+        "Software Architecture",
+        "Design Patterns",
         "Clean Code",
         "Code Review",
         "Unit Testing",
         "Integration Testing",
         "Scenario Testing",
         "Pull Requests",
-        "Merge Requests"
+        "Merge Requests",
+        "Git Workflows"
       ]
     },
     {
-      "name": "Leadership and Collaboration",
+      "name": "Collaboration",
       "keywords": [
-        "Team Leadership",
         "Agile",
         "Scrum",
+        "Kanban",
         "Problem Solving",
         "Management",
         "Communication",
         "Innovation",
-        "Planning",
-        "Time Management"
+        "Planning"
       ]
     }
   ],
@@ -248,79 +172,6 @@
     },
     {
       "language": "Kurdish"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Outdoors",
-      "keywords": [
-        "Weekend Camping",
-        "Nature Walks",
-        "Mountain Exploration"
-      ]
-    },
-    {
-      "name": "Friends and Family"
-    },
-    {
-      "name": "Continuous Learning",
-      "keywords": [
-        "Software Development Courses",
-        "YouTube",
-        "Udemy"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Pateh",
-      "description": "Booking platform for flights, buses, hotels, tours, and insurance services.",
-      "url": "https://www.pateh.com/",
-      "roles": [
-        "Team Lead",
-        "Search Engine Designer",
-        "Software Developer"
-      ],
-      "entity": "Iranicard (Paliz Group)",
-      "type": "Web Platform",
-      "highlights": [
-        "More than 25 microservices and over 20 third-party booking API integrations.",
-        "Flight search results returned in less than one second in 90% of cases."
-      ]
-    },
-    {
-      "name": "Iranicard",
-      "description": "International payment services platform.",
-      "url": "https://panel.iranicard.ir/login",
-      "roles": [
-        "Software Developer"
-      ],
-      "entity": "Iranicard (Paliz Group)",
-      "type": "Web Platform",
-      "highlights": [
-        "Improved payment service integrations, security, database performance, and customer experience."
-      ]
-    },
-    {
-      "name": "Amreton",
-      "description": "Taxi platform expanded to include food delivery, medical assistance, and logistics services.",
-      "url": "https://amreton.ir/",
-      "roles": [
-        "Full Stack Engineer",
-        "Backend Developer"
-      ],
-      "entity": "Amreton",
-      "type": "Application"
-    },
-    {
-      "name": "Talamala",
-      "description": "Website and two Android apps for users and administrators, supported by a PHP and MySQL backend.",
-      "url": "https://talamala.ir/",
-      "roles": [
-        "Full-stack Developer"
-      ],
-      "entity": "Talamala",
-      "type": "Web and Mobile Application"
     }
   ],
   "meta": {
