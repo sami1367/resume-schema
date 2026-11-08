@@ -4,10 +4,12 @@
 
 | نوع | انگلیسی | فارسی |
 | --- | --- | --- |
-| CV کامل: سوابق، پروژه‌ها، دوره‌ها و علایق | [cv.en.json](cv.en.json) | [cv.fa.json](cv.fa.json) |
-| رزومه کوتاه: معرفی، سوابق منتخب، تحصیلات، مهارت‌ها و زبان‌ها | [resume.en.json](resume.en.json) | [resume.fa.json](resume.fa.json) |
+| CV کامل: سوابق، پروژه‌ها، دوره‌ها و علایق | [resumes/cv.en.json](resumes/cv.en.json) | [resumes/cv.fa.json](resumes/cv.fa.json) |
+| رزومه کوتاه: معرفی، سوابق منتخب، تحصیلات، مهارت‌ها و زبان‌ها | [resumes/resume.en.json](resumes/resume.en.json) | [resumes/resume.fa.json](resumes/resume.fa.json) |
 
-فایل [resume.json](resume.json) نسخهٔ پیش‌فرض انگلیسی رزومه کوتاه برای ابزار CLI است.
+فایل [resumes/resume.json](resumes/resume.json) کپی انگلیسی رزومه کوتاه است. هنگام اجرای CLI از ریشهٔ پروژه، مسیر ورودی را با `--resume` مشخص کنید.
+
+فایل‌های JSON در پوشهٔ `resumes/` و خروجی‌های PDF در پوشهٔ `pdfs/` نگهداری می‌شوند.
 
 ## نصب ابزارها (یک‌بار)
 
@@ -30,18 +32,19 @@ npx puppeteer browsers install chrome
 پس از ویرایش و ذخیرهٔ فایل‌های JSON، دستورهای زیر را اجرا کنید:
 
 ```bash
-npx resume export resume.en.pdf --resume resume.en.json --theme modern-classic
-npx resume export resume.fa.pdf --resume resume.fa.json --theme ./themes/modern-classic-fa
-npx resume export cv.en.pdf --resume cv.en.json --theme modern-classic
-npx resume export cv.fa.pdf --resume cv.fa.json --theme ./themes/modern-classic-fa
-
-npx resume export resume.en.pdf --resume resume.en.json --theme modern-classic ; npx resume export resume.fa.pdf --resume resume.fa.json --theme ./themes/modern-classic-fa ; npx resume export cv.en.pdf --resume cv.en.json --theme modern-classic ; npx resume export cv.fa.pdf --resume cv.fa.json --theme ./themes/modern-classic-fa
-
+npx resume export pdfs/resume.en.pdf --resume resumes/resume.en.json --theme modern-classic
+npx resume export pdfs/resume.fa.pdf --resume resumes/resume.fa.json --theme ./themes/modern-classic-fa
+npx resume export pdfs/cv.en.pdf --resume resumes/cv.en.json --theme modern-classic
+npx resume export pdfs/cv.fa.pdf --resume resumes/cv.fa.json --theme ./themes/modern-classic-fa
 ```
 
-فایل‌های `resume.en.pdf`، `resume.fa.pdf`، `cv.en.pdf` و `cv.fa.pdf` در پوشهٔ پروژه ساخته می‌شوند و با اجرای مجدد دستورها جایگزین خواهند شد. این دستورها را باید بعد از هر تغییر اجرا کنید؛ خروجی PDF خودکار به‌روز نمی‌شود.
+فایل‌های `pdfs/resume.en.pdf`، `pdfs/resume.fa.pdf`، `pdfs/cv.en.pdf` و `pdfs/cv.fa.pdf` در پوشهٔ `pdfs/` ساخته می‌شوند و با اجرای مجدد دستورها جایگزین خواهند شد. این دستورها را باید بعد از هر تغییر اجرا کنید؛ خروجی PDF خودکار به‌روز نمی‌شود.
 
-هر چهار فایل مستقل هستند؛ تغییر یکی به‌صورت خودکار در دیگری اعمال نمی‌شود. برای ویرایش، فایل نوع سند و زبان موردنظر را انتخاب کنید. اگر از ورودی پیش‌فرض CLI استفاده می‌کنید، پس از تغییر `resume.en.json`، فایل `resume.json` را هم با آن هماهنگ کنید.
+هر چهار فایل مستقل هستند؛ تغییر یکی به‌صورت خودکار در دیگری اعمال نمی‌شود. برای ویرایش، فایل نوع سند و زبان موردنظر را انتخاب کنید. پس از تغییر `resumes/resume.en.json`، کپی آن را با دستور زیر هماهنگ کنید:
+
+```bash
+cp resumes/resume.en.json resumes/resume.json
+```
 
 CVها اطلاعات کامل قبلی را حفظ کرده‌اند. رزومه‌های کوتاه بر اساس متن جدید تهیه شده‌اند؛ در متن جدید، شاخص پاسخ زیر یک ثانیه از ۹۰٪ به ۹۵٪ و مخاطب اپلیکیشن دوم تلامالا از مدیران به فروشگاه‌ها تغییر کرده است. پیش از ارسال، این تفاوت‌ها را بررسی کنید. تعداد صفحات PDF به قالب و صفحه‌بندی بستگی دارد.
 

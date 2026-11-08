@@ -11,7 +11,9 @@
 
 فونت در HTML به‌صورت data URL تعبیه می‌شود تا خروجی PDF به اینترنت یا نصب فونت روی سیستم وابسته نباشد. هیچ فایل داخل node_modules ویرایش نشده است.
 
+از ریشهٔ پروژه اجرا کنید:
+
 ```bash
-npx resume export resume.fa.pdf --resume resume.fa.json --theme ./themes/modern-classic-fa
-npx resume export cv.fa.pdf --resume cv.fa.json --theme ./themes/modern-classic-fa
+npx resume export pdfs/resume.fa.pdf --resume resumes/resume.fa.json --theme ./themes/modern-classic-fa
+npx resume export pdfs/cv.fa.pdf --resume resumes/cv.fa.json --theme ./themes/modern-classic-fa
 ```
