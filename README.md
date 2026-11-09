@@ -29,13 +29,38 @@ npx puppeteer browsers install chrome
 
 ## ساخت PDF بعد از هر تغییر
 
-پس از ویرایش و ذخیرهٔ فایل‌های JSON، دستورهای زیر را اجرا کنید:
+پس از ویرایش و ذخیرهٔ فایل‌های JSON در پوشهٔ `resumes/`، دستور موردنظر را از ریشهٔ پروژه (پوشهٔ حاوی `package.json`) اجرا کنید. پوشه‌های `resumes/` و `pdfs/` در Git نگهداری می‌شوند.
+
+برای ساخت هر نسخه به‌صورت جداگانه:
+
+رزومه کوتاه انگلیسی:
 
 ```bash
 npx resume export pdfs/resume.en.pdf --resume resumes/resume.en.json --theme modern-classic
+```
+
+رزومه کوتاه فارسی:
+
+```bash
 npx resume export pdfs/resume.fa.pdf --resume resumes/resume.fa.json --theme ./themes/modern-classic-fa
+```
+
+CV کامل انگلیسی:
+
+```bash
 npx resume export pdfs/cv.en.pdf --resume resumes/cv.en.json --theme modern-classic
+```
+
+CV کامل فارسی:
+
+```bash
 npx resume export pdfs/cv.fa.pdf --resume resumes/cv.fa.json --theme ./themes/modern-classic-fa
+```
+
+برای ساخت همهٔ چهار PDF با یک دستور:
+
+```bash
+npx resume export pdfs/resume.en.pdf --resume resumes/resume.en.json --theme modern-classic && npx resume export pdfs/resume.fa.pdf --resume resumes/resume.fa.json --theme ./themes/modern-classic-fa && npx resume export pdfs/cv.en.pdf --resume resumes/cv.en.json --theme modern-classic && npx resume export pdfs/cv.fa.pdf --resume resumes/cv.fa.json --theme ./themes/modern-classic-fa
 ```
 
 فایل‌های `pdfs/resume.en.pdf`، `pdfs/resume.fa.pdf`، `pdfs/cv.en.pdf` و `pdfs/cv.fa.pdf` در پوشهٔ `pdfs/` ساخته می‌شوند و با اجرای مجدد دستورها جایگزین خواهند شد. این دستورها را باید بعد از هر تغییر اجرا کنید؛ خروجی PDF خودکار به‌روز نمی‌شود.
