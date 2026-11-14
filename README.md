@@ -1,3 +1,25 @@
+# Local resume editor
+
+Run `npm install` once, then start the editor:
+
+```bash
+npm run editor
+```
+
+Open **http://localhost:3000**. No login is required; the server listens only on your computer.
+
+- Select any JSON file in `resumes/`.
+- Use **Form editor** to edit fields, add optional fields and list items, or remove entries. Fields support Persian and English text.
+- Switch to **JSON** for direct editing, custom fields, or rearranging entries.
+- Click **Save changes** (or press Cmd/Ctrl+S) to validate against `schema.json` and save to the original file.
+- **Reload from disk** discards edits after confirmation. If a file changes in your IDE, saving reports a conflict so you can copy your pending edits before reloading.
+
+Files remain independent. Saving does not regenerate PDFs or synchronize language variants; use the commands below afterward. Newly added JSON files appear after refreshing the page. Set `PORT=3001 npm run editor` to use another port.
+
+Run `node editor/check.cjs` for the editor's local API checks (port 3000 must be free).
+
+---
+
 # راهنمای ساخت PDF رزومه
 
 دو نوع سند، هرکدام به فارسی و انگلیسی، نگهداری می‌شود:
