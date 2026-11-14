@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Sajad Rahimi",
-    "label": "Senior PHP Full Stack Developer / Team Lead",
+    "label": "Senior Full-Stack Software Engineer | Technical Lead",
     "email": "sjd.rhm@gmail.com",
     "phone": "+989133888033",
-    "summary": "Self-taught senior software developer experienced in building scalable web applications and leading engineering teams. Skilled in PHP (Laravel, Slim, Symfony), Node.js (Express, NestJS), TypeScript, and full-stack development. Designed high-performance search systems, integrated third-party services, and delivered web and mobile platforms. Committed to continuous learning, collaborative teamwork, and improving delivery through agile practices.",
+    "summary": "Senior software engineer and technical lead with extensive experience architecting scalable web platforms, modernizing backend systems, and leading engineering teams across multiple products. Strong background in PHP (Laravel and Slim), Node.js, Express, NestJS, TypeScript, and full-stack development. Experienced in high-performance search engines, third-party API integrations, distributed systems, and financial transaction platforms. Hands-on experience using large language models and AI development tools, including Claude, Claude Code, OpenAI Codex, and Cursor. Creator of AI Worker, a source-available, self-hosted platform that integrates AI coding agents into GitHub and GitLab workflows to automate software development and code review.",
     "location": {
-      "address": "#10, alley 12, Malek Shahr",
+      "address": "Malek Shahr",
       "postalCode": "8196616311",
       "city": "Isfahan",
       "countryCode": "IR",
@@ -16,18 +16,72 @@
   },
   "work": [
     {
+      "name": "Directam",
+      "location": "Isfahan, Iran",
+      "position": "Technical Lead / Senior Software Engineer",
+      "url": "https://directam.ir",
+      "startDate": "2024-10",
+      "summary": "Led technical architecture and engineering efforts for Directam, a major Iranian messaging and sales automation platform. Drove the transition from a centralized backend to scalable, distributed microservices to support millions of events, improve reliability and performance, and enable AI-powered capabilities.",
+      "highlights": [
+        "Provided technical leadership, architectural direction, and hands-on engineering across Directam, Directam Plus, and Avat, focusing on messaging automation and intelligent customer engagement.",
+        "Rearchitected a centralized platform into distributed services, introducing independent microservices to reduce coupling and eliminate processing bottlenecks.",
+        "Increased infrastructure load-handling capacity to more than 100 times that of the previous architecture through processing optimizations, workload distribution, and asynchronous execution.",
+        "Designed for horizontal scaling, enabling additional processing capacity by adding servers without major architectural changes.",
+        "Redesigned the data layer to reduce dependence on a central database, distribute load, improve service autonomy, and mitigate shared points of failure.",
+        "Implemented asynchronous workflows and distributed job queues using Redis, Laravel Queues, Laravel Horizon, and message brokers to process high volumes of messages and background tasks.",
+        "Diagnosed and resolved production performance bottlenecks, excessive resource consumption, service disruptions, and server failures during traffic spikes.",
+        "Built centralized logging, monitoring, and service health checks to accelerate troubleshooting and improve operational reliability.",
+        "Developed and integrated AI-powered messaging capabilities to automate responses and support intelligent user interactions.",
+        "Contributed to the architecture and development of Avat, a messaging automation platform built around the Bale messenger.",
+        "Developed and maintained backend services and APIs with an emphasis on performance, extensibility, error handling, and production stability.",
+        "Guided technical decisions and architectural reviews, solved complex infrastructure issues, and collaborated with engineering teams to improve code quality and maintainability."
+      ],
+      "keywords": [
+        "Technical Leadership",
+        "Team Leadership",
+        "Software Architecture",
+        "Distributed Systems",
+        "Microservices",
+        "High-Traffic Systems",
+        "High Availability",
+        "Horizontal Scaling",
+        "Performance Optimization",
+        "Backend Development",
+        "PHP",
+        "Laravel",
+        "Redis",
+        "Laravel Horizon",
+        "Message Brokers",
+        "Asynchronous Processing",
+        "Queue Management",
+        "Database Optimization",
+        "System Monitoring",
+        "Centralized Logging",
+        "Observability",
+        "API Development",
+        "AI Integration",
+        "Messaging Automation",
+        "Production Troubleshooting"
+      ]
+    },
+    {
       "name": "Iranicard (Paliz Group)",
       "location": "Isfahan, Iran",
-      "position": "Senior Software Developer / Team Lead",
-      "url": "https://panel.iranicard.ir/login",
+      "position": "Senior Software Engineer / Technical Lead",
+      "url": "https://iranicard.ir",
       "startDate": "2020-01",
-      "summary": "Lead development of Pateh, a booking platform for flights, buses, hotels, tours, and insurance, and contribute to Iranicard international payment services.",
+      "endDate": "2024-10",
+      "summary": "Contributed to the architecture, development, and modernization of multiple Paliz Group products, from Iranicard’s international payments platform to building the Pateh travel platform from the ground up. Worked on high-volume, security-sensitive financial systems, backend modernization, microservices adoption, performance optimization, and technical leadership across different engineering teams.",
       "highlights": [
-        "Led a team of 8 developers to design and build more than 25 microservices for the Pateh booking platform.",
-        "Integrated more than 20 third-party flight and hotel booking APIs.",
-        "Built a system capable of handling over 10,000 flight search requests per second.",
-        "Designed a flight search engine that returned results in less than one second in 90% of cases, supporting growth during the first year.",
-        "Improved Iranicard international payment integrations, resolved security issues and bugs, optimized databases, and improved the customer experience."
+        "Developed and redesigned Iranicard services covering international payments, deposits and withdrawals, wallets, high-volume transaction processing, accounting workflows, and settlements.",
+        "Helped modernize legacy backend infrastructure and migrate parts of the platform to microservices to improve scalability and maintainability.",
+        "Identified and addressed security and performance challenges in financial and cryptocurrency-related systems, focusing on sensitive data protection, transaction reliability, and database and API optimization.",
+        "Initiated Pateh as a solo developer, designing and building the platform from scratch before forming and leading multiple teams as the product grew.",
+        "Designed and developed more than 25 microservices and integrated over 20 third-party APIs for domestic and international flights, hotels, buses, tours, and travel insurance.",
+        "Architected a flight search engine capable of handling over 10,000 requests per second, with response times under one second for 90% of requests.",
+        "Designed caching and search-result management mechanisms to reduce supplier API latency and dramatically accelerate flight result delivery.",
+        "Integrated Pateh with Safarmarket, where its fast API responses helped Pateh flight listings consistently appear among the earliest search results.",
+        "Provided technical leadership across multiple Paliz Group projects, contributing to architecture decisions, code reviews, and the resolution of complex production issues."
       ],
       "keywords": [
         "PHP",
@@ -44,21 +98,34 @@
         "jQuery",
         "AJAX",
         "Grafana",
-        "Microservices"
+        "Microservices",
+        "Technical Leadership",
+        "Software Architecture",
+        "Financial Systems",
+        "Payment Processing",
+        "Wallet Systems",
+        "Transaction Processing",
+        "Security",
+        "High-Traffic Systems",
+        "Caching",
+        "Search Engine Optimization",
+        "API Integration",
+        "Distributed Systems",
+        "Performance Optimization"
       ]
     },
     {
       "name": "Amreton",
       "location": "Isfahan, Iran",
-      "position": "Full Stack Engineer / Backend Developer",
+      "position": "Full-Stack Engineer / Backend Developer",
       "url": "https://amreton.ir/",
       "startDate": "2019-01",
       "endDate": "2019-12",
-      "summary": "Developed backend services and APIs for customer and driver applications on an internet taxi platform that expanded into food delivery, medical assistance, and logistics services.",
+      "summary": "Developed backend services and APIs for the passenger and driver applications of Amreton, a ride-hailing platform that expanded into food delivery, medical assistance, and logistics.",
       "highlights": [
-        "Built client and driver APIs with PHP, Laravel, MySQL, Node.js, and Express.",
-        "Optimized travel allocation APIs and migrated communication to WebSocket technology.",
-        "Collaborated through Scrum sprints, daily stand-ups, retrospectives, sprint planning, and demos."
+        "Built passenger and driver application APIs using PHP, Laravel, MySQL, Node.js, and Express.",
+        "Optimized trip assignment APIs and migrated real-time communications to WebSocket.",
+        "Participated in Scrum sprints, daily stand-ups, sprint planning and reviews, and product demos."
       ],
       "keywords": [
         "PHP",
@@ -75,14 +142,14 @@
     {
       "name": "Talamala",
       "location": "Isfahan, Iran",
-      "position": "Full-stack Developer",
+      "position": "Full-Stack Developer",
       "url": "https://talamala.ir/",
       "startDate": "2015-02",
       "endDate": "2018-11",
-      "summary": "Independently developed the Talamala website, two Android applications for users and administrators, and the supporting backend.",
+      "summary": "Independently designed and developed the Talamala website, two Android applications for customers and administrators, and the supporting backend.",
       "highlights": [
-        "Delivered an integrated website, user Android app, and administrator Android app.",
-        "Built a PHP and MySQL backend for data processing and communication across the platform.",
+        "Delivered an integrated product consisting of a website and separate Android apps for customers and administrators.",
+        "Built the backend with PHP and MySQL to process data and connect platform components.",
         "Developed web interfaces using JavaScript, jQuery, and AJAX."
       ],
       "keywords": [
@@ -97,14 +164,14 @@
     {
       "name": "Ponisha",
       "location": "Isfahan, Iran",
-      "position": "Freelance Software Developer",
+      "position": "Freelance Web Developer",
       "url": "https://ponisha.ir/",
       "startDate": "2012-03",
       "endDate": "2014-12",
-      "summary": "Delivered customized websites and software solutions for freelance clients using WordPress, PHP, and JavaScript.",
+      "summary": "Delivered custom website and software projects for clients through Ponisha using WordPress, PHP, and JavaScript.",
       "highlights": [
-        "Developed responsive websites with dynamic functionality and user-friendly interfaces.",
-        "Built tailored solutions using PHP, MySQL, JavaScript, and jQuery to meet client requirements.",
+        "Built responsive websites with dynamic functionality and accessible, practical interfaces.",
+        "Designed and implemented tailored solutions using PHP, MySQL, JavaScript, and jQuery.",
         "Delivered projects under tight deadlines."
       ],
       "keywords": [
@@ -120,32 +187,48 @@
   "education": [
     {
       "institution": "Sepahan University",
-      "area": "Engineering",
-      "studyType": "Bachelor",
+      "area": "Electronic Engineering",
+      "studyType": "Bachelor's Degree",
       "startDate": "2021",
       "endDate": "2023",
-      "summary": "Completed software projects while studying electronic engineering with a focus on software applications."
-    },
-    {
-      "institution": "Sadjad University",
-      "studyType": "Associate degree",
-      "startDate": "2007",
-      "endDate": "2010"
+      "summary": "Completed practical engineering projects involving the design and implementation of electronic, digital, and telecommunications circuits, as well as smart building and building-services automation systems."
     }
   ],
   "certificates": [
     {
-      "name": "Developing Back-End Apps with Node.js and Express",
+      "name": "Backend Application Development with Node.js and Express",
       "date": "2023",
       "issuer": "IBM / Coursera"
     },
     {
-      "name": "Web Page Development with PHP and MySQL",
+      "name": "Web Development with PHP and MySQL",
       "date": "2020",
-      "issuer": "Technical Vocational, Isfahan, Iran"
+      "issuer": "Technical and Vocational Training Organization, Isfahan, Iran"
     }
   ],
   "skills": [
+    {
+      "name": "Applied AI and AI-Assisted Software Development",
+      "keywords": [
+        "Large Language Models (LLMs)",
+        "Claude",
+        "Claude Code",
+        "OpenAI Codex",
+        "Codex CLI",
+        "Cursor",
+        "Cursor CLI",
+        "AI-Assisted Software Development",
+        "Prompt and Context Engineering for Coding Agents",
+        "Automated Development and Code Review",
+        "AI Agent Integration with GitHub and GitLab",
+        "AI Agent Workflows",
+        "MCP",
+        "CodeGraph",
+        "Prompt Engineering",
+        "Agentic Workflows",
+        "GitHub Actions / GitLab Workflows"
+      ]
+    },
     {
       "name": "Backend Development",
       "keywords": [
@@ -159,7 +242,11 @@
         "NestJS",
         "Go",
         "Gin",
-        "REST APIs"
+        "REST APIs",
+        "Backend Development",
+        "API Design",
+        "Microservices",
+        "Distributed Systems"
       ]
     },
     {
@@ -176,7 +263,10 @@
         "Bootstrap",
         "SASS",
         "jQuery",
-        "AJAX"
+        "AJAX",
+        "Frontend Development",
+        "Vue 3",
+        "Nuxt 3"
       ]
     },
     {
@@ -186,13 +276,17 @@
         "MongoDB",
         "Database Optimization",
         "Caching",
-        "Queues",
-        "Background Jobs",
-        "RabbitMQ"
+        "Job Queues",
+        "Background Processing",
+        "RabbitMQ",
+        "PostgreSQL",
+        "Redis",
+        "Message Queues",
+        "Asynchronous Processing"
       ]
     },
     {
-      "name": "Infrastructure and Delivery",
+      "name": "Infrastructure and Software Delivery",
       "keywords": [
         "AWS",
         "Linux",
@@ -203,7 +297,14 @@
         "GitLab",
         "GitHub",
         "Grafana",
-        "Git Workflows"
+        "Git Workflows",
+        "Docker",
+        "Docker Compose",
+        "Nginx",
+        "Observability",
+        "Prometheus",
+        "Loki",
+        "Monitoring"
       ]
     },
     {
@@ -213,7 +314,7 @@
         "Software Architecture",
         "Software Design",
         "Design Patterns",
-        "OOP",
+        "Object-Oriented Programming (OOP)",
         "SOLID Principles",
         "Clean Code",
         "Code Review",
@@ -221,21 +322,31 @@
         "Integration Testing",
         "Scenario Testing",
         "Pull Requests",
-        "Merge Requests"
+        "Merge Requests",
+        "System Design",
+        "Scalability",
+        "High Availability",
+        "Performance Optimization",
+        "Clean Architecture"
       ]
     },
     {
-      "name": "Leadership and Collaboration",
+      "name": "Technical Leadership and Collaboration",
       "keywords": [
         "Team Leadership",
-        "Agile",
+        "Agile Methodologies",
         "Scrum",
         "Problem Solving",
         "Management",
-        "Communication",
+        "Effective Communication",
         "Innovation",
         "Planning",
-        "Time Management"
+        "Time Management",
+        "Technical Leadership",
+        "Tech Lead",
+        "Agile",
+        "Mentoring",
+        "Cross-functional Collaboration"
       ]
     }
   ],
@@ -244,7 +355,7 @@
       "language": "English"
     },
     {
-      "language": "Persian"
+      "language": "Persian (Farsi)"
     },
     {
       "language": "Kurdish"
@@ -252,40 +363,103 @@
   ],
   "interests": [
     {
-      "name": "Outdoors",
+      "name": "Software Architecture and Distributed Systems",
       "keywords": [
-        "Weekend Camping",
-        "Nature Walks",
-        "Mountain Exploration"
+        "Software Architecture",
+        "Distributed Systems",
+        "Microservices",
+        "Scalability",
+        "Performance Optimization"
       ]
     },
     {
-      "name": "Friends and Family"
+      "name": "AI and Software Engineering Automation",
+      "keywords": [
+        "AI Agents",
+        "Large Language Models (LLMs)",
+        "AI-Assisted Development",
+        "Developer Automation",
+        "MCP"
+      ]
     },
     {
-      "name": "Continuous Learning",
+      "name": "Open-Source Projects and Continuous Learning",
       "keywords": [
-        "Software Development Courses",
-        "YouTube",
-        "Udemy"
+        "Open Source",
+        "Self-Hosted Tools",
+        "Continuous Learning",
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "Technical Leadership and Knowledge Sharing",
+      "keywords": [
+        "Technical Leadership",
+        "Mentoring",
+        "Code Review",
+        "Engineering Best Practices"
+      ]
+    },
+    {
+      "name": "Outdoor Activities and Travel",
+      "keywords": [
+        "Camping",
+        "Hiking",
+        "Travel"
       ]
     }
   ],
   "projects": [
     {
+      "name": "AI Worker",
+      "description": "A personal, source-available project for running AI coding agents on self-hosted infrastructure and automating development tasks and code review in GitHub and GitLab.",
+      "url": "https://vibeplus1.com/ai-worker",
+      "roles": [
+        "Creator and Lead Developer",
+        "Software Architect",
+        "AI Agent Integration Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "Self-Hosted, Source-Available Platform (Elastic License 2.0)",
+      "highlights": [
+        "Designed a label-driven workflow that turns issues into code changes and pull or merge requests.",
+        "Implemented automated code review and project Q&A without requiring code changes.",
+        "Integrated Cursor CLI, Claude Code, Codex CLI, Gemini CLI, and GitHub Copilot CLI.",
+        "Added support for GitHub, GitLab, and self-managed GitLab, with per-repository agent selection.",
+        "Integrated CodeGraph and MCP to provide coding agents with semantic code context.",
+        "Enabled Docker deployment, connection management, and encrypted storage of secrets.",
+        "Published source code on GitHub: https://github.com/sami1367/ai-worker"
+      ],
+      "keywords": [
+        "AI Agents",
+        "Claude Code",
+        "Codex CLI",
+        "Cursor CLI",
+        "GitHub",
+        "GitLab",
+        "GitLab Self-Managed",
+        "CodeGraph",
+        "MCP",
+        "Docker",
+        "Software Development Automation",
+        "Code Review",
+        "Self-Hosted"
+      ]
+    },
+    {
       "name": "Pateh",
-      "description": "Booking platform for flights, buses, hotels, tours, and insurance services.",
+      "description": "Travel booking platform for flights, buses, hotels, tours, and insurance.",
       "url": "https://www.pateh.com/",
       "roles": [
-        "Team Lead",
-        "Search Engine Designer",
+        "Technical Lead",
+        "Search Engine Architect",
         "Software Developer"
       ],
       "entity": "Iranicard (Paliz Group)",
       "type": "Web Platform",
       "highlights": [
-        "More than 25 microservices and over 20 third-party booking API integrations.",
-        "Flight search results returned in less than one second in 90% of cases."
+        "Developed over 25 microservices and integrated more than 20 external APIs for booking services.",
+        "Delivered flight search results in under one second for 90% of requests."
       ]
     },
     {
@@ -303,27 +477,27 @@
     },
     {
       "name": "Amreton",
-      "description": "Taxi platform expanded to include food delivery, medical assistance, and logistics services.",
+      "description": "Ride-hailing platform that expanded into food delivery, medical assistance, and logistics.",
       "url": "https://amreton.ir/",
       "roles": [
-        "Full Stack Engineer",
+        "Full-Stack Engineer",
         "Backend Developer"
       ],
       "entity": "Amreton",
-      "type": "Application"
+      "type": "Mobile Application"
     },
     {
       "name": "Talamala",
-      "description": "Website and two Android apps for users and administrators, supported by a PHP and MySQL backend.",
+      "description": "Website and two Android applications for customers and administrators, supported by a PHP and MySQL backend.",
       "url": "https://talamala.ir/",
       "roles": [
-        "Full-stack Developer"
+        "Full-Stack Developer"
       ],
       "entity": "Talamala",
-      "type": "Web and Mobile Application"
+      "type": "Web and Mobile Applications"
     }
   ],
   "meta": {
-    "lastModified": "2026-11-01"
+    "lastModified": "2026-11-14"
   }
 }

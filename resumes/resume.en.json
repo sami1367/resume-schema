@@ -2,13 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Sajad Rahimi",
-    "label": "Senior Node.js Full Stack Developer",
+    "label": "Technical Lead | Senior Software Engineer | Scalable Systems",
     "email": "sjd.rhm@gmail.com",
     "phone": "+989133888033",
-    "summary": "Senior Node.js full stack developer experienced in building scalable web applications and leading teams. Skilled in Node.js, TypeScript, Express, NestJS, MongoDB, and PHP (Laravel, Slim, Symfony). Self-taught and committed to continuous learning, teamwork, and improving delivery through agile practices.",
+    "summary": "Technical lead and senior software engineer with 10+ years of experience building financial, travel, and SaaS platforms. Skilled in distributed systems, microservices, performance optimization, and leading engineering teams across products. Hands-on with PHP/Laravel, Node.js/NestJS, TypeScript, and AI-assisted development. Creator of AI Worker, a self-hosted tool for automating software development and code review.",
     "location": {
-      "address": "#10, alley 12, Malek Shahr",
-      "postalCode": "8196616311",
       "city": "Isfahan",
       "countryCode": "IR",
       "region": "Isfahan"
@@ -16,150 +14,151 @@
   },
   "work": [
     {
+      "name": "Directam",
+      "location": "Isfahan, Iran",
+      "position": "Technical Lead / Senior Software Engineer",
+      "url": "https://directam.ir",
+      "startDate": "2024-10",
+      "summary": "Led architecture and engineering across Directam, Directam Plus, and Avat, modernizing high-volume messaging infrastructure and integrating AI capabilities.",
+      "highlights": [
+        "Led multiple engineering teams and the transition from a monolithic architecture to distributed microservices.",
+        "Increased infrastructure load-handling capacity by more than 100× compared with the previous architecture, enabling horizontal scaling.",
+        "Introduced asynchronous processing and queues using Redis, Laravel Queues, and Horizon while reducing reliance on a central database.",
+        "Implemented centralized logging and monitoring and contributed to AI-powered automated messaging."
+      ]
+    },
+    {
       "name": "Iranicard (Paliz Group)",
       "location": "Isfahan, Iran",
-      "position": "Senior Full Stack Developer & Team Lead",
-      "url": "https://www.pateh.com/",
+      "position": "Senior Software Engineer / Technical Lead",
+      "url": "https://iranicard.ir",
       "startDate": "2020-01",
-      "summary": "Led a team of 8 developers to build Pateh, a comprehensive booking platform.",
+      "endDate": "2024-10",
+      "summary": "Led engineering initiatives across Iranicard’s financial platform and launched Pateh, a travel booking platform built from the ground up.",
       "highlights": [
-        "Developed over 25 microservices and integrated more than 20 third-party APIs for flight and hotel bookings.",
-        "Designed a high-performance flight search engine returning results in less than one second in 95% of cases.",
-        "Built a system handling over 10,000 flight search requests per second."
+        "Helped modernize Iranicard’s backend toward microservices; worked on payments, wallets, transaction processing, accounting flows, and financial-data security.",
+        "Started Pateh as its sole developer, then built and led multiple teams as the product expanded.",
+        "Designed and developed 25+ microservices and integrated 20+ APIs for flights, hotels, buses, tours, and travel insurance.",
+        "Built a flight search engine handling 10,000+ requests per second, with sub-second responses for 90% of searches, using caching and search-result management.",
+        "Integrated with Safarmarket, achieving competitive search-result placement through fast API response times."
       ]
     },
     {
       "name": "Amreton",
       "location": "Isfahan, Iran",
-      "position": "Full Stack Engineer / Backend PHP Developer",
+      "position": "Full-Stack Engineer / Backend Developer",
       "url": "https://amreton.ir/",
       "startDate": "2019-01",
       "endDate": "2019-12",
-      "summary": "Developed an internet taxi application and its backend services.",
+      "summary": "Developed backend APIs and services for a ride-hailing and logistics platform.",
       "highlights": [
-        "Identified and fixed backend issues to support increased driver and customer volume.",
-        "Expanded the platform to support taxi services, food delivery, medical assistance, and logistics."
+        "Built passenger and driver services with Laravel and Node.js; improved ride assignment using WebSocket."
       ]
     },
     {
       "name": "Talamala",
       "location": "Isfahan, Iran",
-      "position": "Full-stack PHP Developer",
+      "position": "Full-Stack Developer",
       "url": "https://talamala.ir/",
       "startDate": "2015-02",
       "endDate": "2018-11",
-      "summary": "Independently developed the Talamala platform.",
-      "highlights": [
-        "Built the website and two Android apps for users and shops.",
-        "Developed and maintained the PHP and MySQL backend."
-      ]
+      "summary": "Independently developed Talamala’s website, two Android applications, and supporting backend.",
+      "highlights": []
     },
     {
       "name": "Ponisha",
       "location": "Isfahan, Iran",
-      "position": "Freelance Software Developer",
+      "position": "Freelance Web Developer",
       "url": "https://ponisha.ir/",
       "startDate": "2012-03",
       "endDate": "2014-12",
-      "summary": "Delivered custom websites and software through Ponisha using WordPress, PHP, and JavaScript, creating responsive interfaces and dynamic functionality under tight deadlines."
+      "summary": "Delivered custom web projects using PHP, WordPress, and JavaScript.",
+      "highlights": []
     }
   ],
   "education": [
     {
       "institution": "Sepahan University",
-      "area": "Engineering",
-      "studyType": "Bachelor",
+      "area": "Electronic Engineering",
+      "studyType": "Bachelor's Degree",
       "startDate": "2021",
       "endDate": "2023"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Backend Application Development with Node.js and Express",
+      "date": "2023",
+      "issuer": "IBM / Coursera"
     },
     {
-      "institution": "Sadjad University",
-      "studyType": "Associate degree",
-      "startDate": "2007",
-      "endDate": "2010"
+      "name": "Web Development with PHP and MySQL",
+      "date": "2020",
+      "issuer": "Technical and Vocational Training Organization, Isfahan, Iran"
     }
   ],
   "skills": [
     {
-      "name": "Backend",
+      "name": "Architecture & Leadership",
       "keywords": [
-        "Node.js",
-        "TypeScript",
-        "Express",
-        "NestJS",
+        "Software Architecture",
+        "Distributed Systems",
+        "Microservices",
+        "Horizontal Scaling",
+        "Technical Leadership",
+        "Code Review",
+        "Agile/Scrum"
+      ]
+    },
+    {
+      "name": "Backend & APIs",
+      "keywords": [
         "PHP",
         "Laravel",
-        "Slim",
-        "Symfony",
-        "Go",
-        "Gin",
-        "REST APIs"
+        "Node.js",
+        "TypeScript",
+        "NestJS",
+        "Express",
+        "REST APIs",
+        "Go"
       ]
     },
     {
       "name": "Frontend",
       "keywords": [
         "JavaScript",
-        "Angular",
-        "AngularJS",
         "Vue.js",
         "Nuxt.js",
-        "HTML",
-        "CSS",
-        "AJAX",
-        "Bootstrap",
-        "SASS"
+        "AngularJS",
+        "HTML/CSS"
       ]
     },
     {
-      "name": "Data and Infrastructure",
+      "name": "Data & Infrastructure",
       "keywords": [
         "MySQL",
+        "PostgreSQL",
         "MongoDB",
-        "AWS",
-        "Linux",
-        "LAMP",
-        "Docker",
-        "CI/CD",
-        "Git",
-        "GitLab",
-        "GitHub",
+        "Redis",
         "RabbitMQ",
+        "Docker",
+        "Linux",
+        "CI/CD",
         "Grafana",
-        "Caching",
-        "Queues",
-        "Background Jobs"
+        "Observability"
       ]
     },
     {
-      "name": "Engineering Practices",
+      "name": "AI & Developer Tools",
       "keywords": [
-        "OOP",
-        "SOLID",
-        "DRY",
-        "Software Architecture",
-        "Design Patterns",
-        "Clean Code",
-        "Code Review",
-        "Unit Testing",
-        "Integration Testing",
-        "Scenario Testing",
-        "Pull Requests",
-        "Merge Requests",
-        "Git Workflows"
-      ]
-    },
-    {
-      "name": "Collaboration",
-      "keywords": [
-        "Agile",
-        "Scrum",
-        "Kanban",
-        "Problem Solving",
-        "Management",
-        "Communication",
-        "Innovation",
-        "Planning"
+        "LLMs",
+        "AI Agents",
+        "Claude Code",
+        "OpenAI Codex",
+        "Cursor",
+        "MCP",
+        "GitHub",
+        "GitLab"
       ]
     }
   ],
@@ -168,13 +167,39 @@
       "language": "English"
     },
     {
-      "language": "Persian"
+      "language": "Persian (Farsi)"
     },
     {
       "language": "Kurdish"
     }
   ],
+  "interests": [
+    {
+      "name": "Software architecture, AI, and open-source projects"
+    },
+    {
+      "name": "Hiking and travel"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Worker",
+      "description": "Self-hosted, source-available platform for AI coding agents that automate development tasks and code reviews across GitHub and GitLab.",
+      "url": "https://vibeplus1.com/ai-worker",
+      "roles": [
+        "Creator and Lead Developer",
+        "Software Architect",
+        "AI Agent Integration Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "Self-Hosted, Source-Available Platform (Elastic License 2.0)",
+      "highlights": [
+        "Connects Claude Code, Cursor CLI, Codex CLI, and other agents to turn issues into pull or merge requests.",
+        "Supports Docker, GitHub/GitLab, MCP, and CodeGraph."
+      ]
+    }
+  ],
   "meta": {
-    "lastModified": "2026-11-01"
+    "lastModified": "2026-11-14"
   }
 }
